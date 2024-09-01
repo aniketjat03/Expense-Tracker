@@ -19,7 +19,6 @@ The application is used to track and store expenses. This application build usin
 3. NPM
 4. React JS
 
-
 ### Server - steps to start server side
 1. run command ** npm install** to install required modules
 2. add **config.env** file in ``` \server\config ``` dir and provide **MONGO_URI** for db connection.
@@ -32,27 +31,14 @@ MONGO_URI=mongodb://<HOST_NAME>:<PORT>/<DATABASE_NAME>
 *I have also attached POSTMAN collection for rest endpoint reference*
 
 ### Client - steps to start client side
-1. set your **proxy** in *client/package.json* based on where backend is hosted
-2. run command ** npm install** to install required modules
-3. to start server use command **npm start**
+1. run command ** npm install** to install required modules
+2. to start server use command **npm start**
 
-### Frontend Screenshots
-![EXPENSE_TRACKER](expense-tracker.PNG)
+
+## Frontend image:
+
 
 <br>
 <hr>
 <br>
 
-## Production - Steps
-- see ***production branch*** <br>
-or
-- follow steps -
-    1. In client folder, run command ```npm run build```
-    2. It will create a *build dir*, that will caontain all **static files**
-    3. copy *build dir* from *client dir* and paste it in *server dir*
-    4. set NODE_ENV as production in  *\server\config*
-    5. run command *npm start* to start server in production mode
-
-<hr>
-
-***Have a Good Day!***
