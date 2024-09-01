@@ -36,7 +36,7 @@ MONGO_URI=mongodb://<HOST_NAME>:<PORT>/<DATABASE_NAME>
 
 
 ## Frontend image:
-
+https://github.com/aniketjat03/Expense-Tracker/blob/main/Frontend.PNG
 
 <br>
 <hr>
